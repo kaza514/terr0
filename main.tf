@@ -1,5 +1,5 @@
 
-resource "aws_instance" "fazal" {
+resource "aws_instance" "faz" {
   ami           = var.ami_id
   instance_type = var.ins_type
   key_name = "batch9"
